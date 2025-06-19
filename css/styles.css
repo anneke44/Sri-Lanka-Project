@@ -2,8 +2,15 @@
   --primary-font: "Roboto", sans-serif;
   --secondary-font: "Roboto Mono", monospace;
   --button-font: "Montserrat", sans-serif;
-  --primary-color: rgb(1, 32, 78);
-  --secondary-color: rgb(2, 131, 145);
-  --tertiary-color: rgb(246, 220, 172);
-  -high-light-color: rgb(254, 174, 111);
+  --primary-color: rgb(166, 205, 198);
+  --secondary-color: rgb(22, 64, 77);
+  --tertiary-color: rgb(251, 245, 221);
+  -high-light-color: rgb(221, 168, 83);
+}
+
+h1 {
+  font-family: var(--primary-font);
+  font-size: 96px;
+  font-weight: 600;
+  line-height: 100%;
 }
