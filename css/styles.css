@@ -7,28 +7,83 @@
   --tertiary-color: rgb(251, 245, 221);
   -high-light-color: rgb(221, 168, 83);
 }
+body {
+  background-color: var(--secondary-color);
+}
 
 h1 {
   font-family: var(--primary-font);
   font-size: 96px;
   font-weight: 600;
-  line-height: 100%;
+  line-height: 1.5;
+  margin: 0;
 }
 h2 {
   font-family: var(--primary-font);
   font-size: 40px;
   font-weight: 400;
-  line-height: 100%;
+  line-height: 1.5;
+  margin: 32px auto;
+}
+h3 {
+  font-family: var(--primary-font);
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1.5;
+  letter-spacing: 4px;
+  margin: 0;
+}
+button {
+  display: inline-block;
+  padding: 16px 32px;
+  border-radius: 6px;
+  background-color: transparent;
+  border-color: var(--tertiary-color);
+  margin-top: 10px;
+}
+.project-container {
+  max-width: 1200px;
+  margin: 0 auto;
 }
 .button-text {
   font-family: var(--button-font);
   font-size: 14px;
   font-weight: 700;
-  line-height: 100%;
+  line-height: 1.5;
   letter-spacing: 2px;
-  color: var(--secondary-color);
+  color: var(--tertiary-color);
   text-decoration: none;
+  margin: 0;
 }
 .landing-page-hero-heading {
   text-align: center;
+  color: var(--tertiary-color);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/images/cape-town-hero-image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 6px;
+  padding: 320px 100px;
+}
+
+@media (max-width: 800px) {
+  .landing-page-hero-heading {
+    padding: 60px 0;
+    h1 {
+      font-size: 32px;
+    }
+    h2 {
+      font-size: 20px;
+      margin: 16px auto;
+    }
+    h3 {
+      font-size: 12px;
+    }
+    button {
+      padding: 8px 16px;
+    }
+    .button-text {
+      font-size: 8px;
+    }
+  }
 }
