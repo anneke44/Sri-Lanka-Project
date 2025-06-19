@@ -63,7 +63,7 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 6px;
-  padding: 320px 100px;
+  padding: 200px 0;
 }
 
 @media (max-width: 900px) {
