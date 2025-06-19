@@ -63,27 +63,27 @@ button {
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 6px;
-  padding: 320px 80px;
+  padding: 320px 100px;
 }
 
 @media (max-width: 800px) {
   .landing-page-hero-heading {
     padding: 60px 0;
-    h1 {
-      font-size: 32px;
-    }
-    h2 {
-      font-size: 20px;
-      margin: 16px auto;
-    }
-    h3 {
-      font-size: 12px;
-    }
-    button {
-      padding: 8px 16px;
-    }
-    .button-text {
-      font-size: 8px;
-    }
+  }
+  h1 {
+    font-size: 32px;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 16px auto;
+  }
+  h3 {
+    font-size: 12px;
+  }
+  button {
+    padding: 8px 16px;
+  }
+  .button-text {
+    font-size: 8px;
   }
 }
