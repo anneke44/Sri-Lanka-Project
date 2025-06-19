@@ -8,6 +8,7 @@
   -high-light-color: rgb(221, 168, 83);
 }
 body {
+  margin: 0 auto;
   background-color: var(--secondary-color);
 }
 
