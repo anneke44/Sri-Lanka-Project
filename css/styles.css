@@ -5,7 +5,7 @@
   --primary-color: rgb(166, 205, 198);
   --secondary-color: rgb(22, 64, 77);
   --tertiary-color: rgb(251, 245, 221);
-  -high-light-color: rgb(221, 168, 83);
+  --high-light-color: rgb(221, 168, 83);
 }
 body {
   margin: 0 auto;
@@ -52,7 +52,7 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding: 100px 150px;
+  padding: 100px 50px;
 }
 
 .project-container {
@@ -80,8 +80,36 @@ footer {
   padding: 200px 0;
 }
 .footer-container {
+  display: grid;
   max-width: 1200px;
+  grid-template-columns: 1fr 2fr 2fr;
+  grid-gap: 10px;
   margin: 0 auto;
+  padding: 0;
+}
+.footer-container p {
+  font-family: var(--secondary-font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  opacity: 0.7;
+}
+.footer-container a {
+  font-family: var(--button-font);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 2;
+  text-decoration: none;
+  color: var(--tertiary-color);
+}
+.footer-container ul {
+  padding: 0;
+}
+.footer-container li {
+  list-style: none;
+  opacity: 0.7;
+  margin: 0;
+  padding: 0;
 }
 
 @media (max-width: 900px) {
