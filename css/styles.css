@@ -34,14 +34,6 @@ h3 {
   letter-spacing: 4px;
   margin: 0;
 }
-button {
-  display: inline-block;
-  padding: 16px 32px;
-  border-radius: 6px;
-  background-color: transparent;
-  border-color: rgba(251, 245, 221, 0.5);
-  margin-top: 10px;
-}
 main {
   background-color: var(--tertiary-color);
 }
@@ -65,7 +57,7 @@ main h3 {
   font-size: 16px;
 }
 main h2 {
-  margin: 5px 0;
+  margin: 10px 0;
 }
 main p {
   font-family: var(--secondary-font);
@@ -80,6 +72,9 @@ section {
 }
 section.secondary-grid {
   background-color: rgba(166, 205, 198, 0.3);
+  padding: 60px;
+}
+section.insta-grid {
   padding: 60px;
 }
 footer {
@@ -100,14 +95,23 @@ footer {
   margin: 0 auto;
 }
 .button-text {
+  display: inline-block;
+  margin-top: 10px;
+  padding: 16px 32px;
   font-family: var(--button-font);
   font-size: 14px;
   font-weight: 700;
   line-height: 1.5;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
+  border: 2px solid rgba(251, 245, 221, 0.5);
+  border-radius: 6px;
+  background-color: transparent;
   color: var(--tertiary-color);
   text-decoration: none;
-  margin: 0;
+}
+.button-text:hover {
+  color: var(--high-light-color);
+  border-color: var(--high-light-color);
 }
 .landing-page-hero-heading {
   text-align: center;
@@ -143,7 +147,7 @@ footer {
   text-align: center;
 }
 .card {
-  background-color: rgba(251, 245, 221, 0.8);
+  background-color: rgba(22, 64, 77, 0.1);
   margin: 50px 0;
   border-radius: 4px;
 }
@@ -174,6 +178,9 @@ footer {
   text-decoration: none;
   padding: 16px;
 }
+.card-button:hover {
+  color: var(--high-light-color);
+}
 .insta-grid h3 {
   text-align: center;
 }
@@ -201,8 +208,11 @@ footer {
   font-size: 16px;
   font-weight: 400;
   line-height: 2;
-  text-decoration: none;
+  text-decoration: underline;
   color: var(--tertiary-color);
+}
+.footer-container a:hover {
+  color: var(--high-light-color);
 }
 .footer-container ul {
   margin: 16px auto;
