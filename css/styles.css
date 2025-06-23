@@ -234,6 +234,12 @@ footer {
   .button-text {
     font-size: 8px;
   }
+  .grid-3-columns {
+    grid-template-columns: 1fr;
+  }
+  .card {
+    text-align: center;
+  }
   .footer-container {
     grid-template-columns: 1fr;
   }
