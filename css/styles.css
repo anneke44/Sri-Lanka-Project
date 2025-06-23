@@ -80,6 +80,7 @@ section {
 }
 section.secondary-grid {
   background-color: rgba(166, 205, 198, 0.2);
+  padding: 60px;
 }
 footer {
   color: var(--tertiary-color);
@@ -134,13 +135,16 @@ footer {
   grid-gap: 40px;
   grid-template-columns: 1fr 1fr 1fr;
 }
-.secondary-grid h3,
-h2 {
+.secondary-grid h3 {
+  text-align: center;
+}
+.secondary-grid h2 {
   text-align: center;
 }
 .card {
   background-color: var(--tertiary-color);
   margin: 50px 0;
+  border-radius: 4px;
 }
 .card-body {
   padding: 30px;
@@ -186,7 +190,7 @@ h2 {
   color: var(--tertiary-color);
 }
 .footer-container ul {
-  margin: 0;
+  margin: 16px auto;
   padding: 0;
 }
 .footer-container li {
