@@ -45,6 +45,20 @@ button {
 main {
   background-color: var(--tertiary-color);
 }
+main h5 {
+  font-family: var(--primary-font);
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0;
+}
+main h4 {
+  font-family: var(--primary-font);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0;
+}
 main h3 {
   text-transform: uppercase;
   opacity: 0.4;
@@ -65,7 +79,7 @@ section {
   padding: 100px;
 }
 section.secondary-grid {
-  background-color: var(--primary-color);
+  background-color: rgba(166, 205, 198, 0.2);
 }
 footer {
   color: var(--tertiary-color);
@@ -109,17 +123,45 @@ footer {
   grid-template-columns: 1fr 1fr;
   grid-gap: 40px;
 }
-.bo-kaap-image {
+.responsive-image {
   width: 100%;
   display: block;
   margin: 0 auto;
   border-radius: 4px;
 }
+.grid-3-columns {
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: 1fr 1fr 1fr;
+}
 .secondary-grid h3,
 h2 {
   text-align: center;
 }
-
+.card {
+  background-color: var(--tertiary-color);
+  margin: 50px 0;
+}
+.card-body {
+  padding: 30px;
+}
+.card-footer {
+  padding: 20px 0 10px;
+}
+.card-button {
+  display: block;
+  font-family: var(--button-font);
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.5;
+  color: white;
+  background-color: var(--secondary-color);
+  text-align: center;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 16px;
+}
 .footer-container {
   display: grid;
   max-width: 1400px;
