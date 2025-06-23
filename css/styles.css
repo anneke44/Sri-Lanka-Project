@@ -248,6 +248,9 @@ footer {
   main h3 {
     font-size: 14px;
   }
+  section.insta-grid {
+    padding: 0px;
+  }
   footer {
     padding: 50px 60px;
   }
@@ -280,7 +283,10 @@ footer {
     aspect-ratio: 16 / 9;
   }
   .insta-embeds {
-    margin: 30 auto;
+    margin: 30px auto;
+  }
+  .insta-image {
+    margin: 0 auto;
   }
   .footer-container {
     grid-template-columns: 1fr;
